@@ -1,8 +1,9 @@
 {
   "name": "demo-mocha-phantomjs",
-  "version": "1.0.0",
+  "version": "1.0.1",
+  "homepage": "https://github.com/sutara79/mocha-phantom-travis-test",
   "devDependencies": {
-    "mocha-phantomjs": "4.1.0"
+    "mocha-phantomjs": "^4.1.0"
   },
   "scripts": {
     "test": "./node_modules/.bin/mocha-phantomjs test/index.html"
