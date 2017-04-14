@@ -6,6 +6,6 @@
     "mocha-phantomjs": "^4.1.0"
   },
   "scripts": {
-    "test": "./node_modules/.bin/mocha-phantomjs test/index.html"
+    "test": "./node_modules/.bin/mocha-phantomjs --ssl-protocol=any test/index.html"
   }
 }
